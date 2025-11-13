@@ -16,7 +16,6 @@ With the streaming market rapidly growing, understanding content trends is vital
 - **Filename**: `netflix_titles.csv`  
 - **Source**: https://www.kaggle.com/datasets/shivamb/netflix-shows/data
 - **Main fields**: `show_id`, `type`, `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in` (genres)  
-- **Data coverage / specifics**: <e.g., number of rows, date range>
 
 ## Implementation Details
 - Loaded and inspected the data using pandas; removed duplicate entries and filled missing values for key columns (e.g., `country`, `rating`, `date_added`).  
@@ -36,5 +35,11 @@ With the streaming market rapidly growing, understanding content trends is vital
 ## How to Run
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/NikhilArora06/ibm-project
+   git clone https://github.com/NikhilArora06/EDA-on-netflix-dataset
+2. Install Dependencies
+pip install -r requirements.txt
+3. To launch Streamlit
+   streamlit run app2.py  
+
+
 
